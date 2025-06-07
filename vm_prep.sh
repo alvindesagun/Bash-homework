@@ -7,8 +7,8 @@ sudo yum install -y git
 sleep 5
 
 # set git parameters
-git config --global user.email "alvindesagun@gmail.com"
-git config --global user.name "Alvin De Sagun"
+git config --global user.email "user@gmail.com"
+git config --global user.name "ARD"
 
 # generate public key
 ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -q -N ""
